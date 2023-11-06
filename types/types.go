@@ -1,6 +1,8 @@
 package types
 
-import "time"
+import (
+	"time"
+)
 
 type OrderStatus string
 type PaymentStatus string
@@ -42,3 +44,4 @@ type CryptoPayment struct {
 	TransactionHash string
 	Currency        CryptoCurrency
 }
+
